@@ -1,4 +1,4 @@
-SELECT t_journal.voucher_no voucherno
+  SELECT t_journal.voucher_no voucherno
      , t_journal.journal_no postedVoucherNo
      , to_char(t_journal.posting_date, 'DD/MM/YYYY') posted_date
      , t_journal.payment_type
